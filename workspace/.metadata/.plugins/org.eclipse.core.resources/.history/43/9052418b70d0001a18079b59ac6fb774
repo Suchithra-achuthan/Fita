@@ -1,0 +1,33 @@
+package programs;
+
+import java.util.Scanner;
+
+public class Time3 {
+	public static void main(String[] args) {
+		System.out.println("Enter a four digit number");
+		Scanner scn =new Scanner(System.in);
+		String num=scn.next();
+		
+			String x = num.substring(0, 1);
+			String y= num.substring(1);
+			System.out.println(x +" and "+ y);
+			StringBuilder h= new StringBuilder(z);
+			
+			if ((hh<24)&&(mm<60))
+			{
+				System.out.println("The highest time is "+hh+":"+mm);
+				
+			}
+			else if((hh>24)&&(mm<60))
+			{
+				hh=00;
+				System.out.println("The highest time is "+hh+":"+mm);
+			}
+			else if((hh<24)&&(mm>60))
+			{
+				mm=00;
+				System.out.println("The highest time is "+hh+":"+mm);
+			}
+
+}
+}

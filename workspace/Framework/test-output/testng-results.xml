@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15410" started-at="2020-07-08T15:30:02Z" finished-at="2020-07-08T15:30:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15410" started-at="2020-07-08T15:30:02Z" finished-at="2020-07-08T15:30:17Z">
+      <class name="testcases.DemoDataDriven">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:testcases.DemoDataDriven@13b6d03]" name="Initialize" is-config="true" duration-ms="6370" started-at="2020-07-08T11:30:02Z" finished-at="2020-07-08T11:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="Register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.DemoDataDriven@13b6d03]" name="Register" duration-ms="8407" started-at="2020-07-08T11:30:09Z" data-provider="method1" finished-at="2020-07-08T11:30:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suchithra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Achuthan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25, Saibaba colony]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[such@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9620800186]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Movies]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Dutch]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[C++]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Denmark]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1992]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Testing1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Testing1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="FAIL" signature="Register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.DemoDataDriven@13b6d03]" name="Register" duration-ms="125" started-at="2020-07-08T11:30:17Z" data-provider="method1" finished-at="2020-07-08T11:30:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Venky]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bala]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[35 , Rajalakshmi Nagar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9976688487]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[FeMale]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Hockey]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Arabic]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Brazil]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Japan]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1995]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Selenium2]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Selenium2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@ng-model='FirstName']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'AH-LOAN-167', ip: '192.168.1.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\vbalasub\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d3fb2292a225a76628b2895018f8248f
+*** Element info: {Using=xpath, value=//input[@ng-model='FirstName']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@ng-model='FirstName']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'AH-LOAN-167', ip: '192.168.1.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\vbalasub\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d3fb2292a225a76628b2895018f8248f
+*** Element info: {Using=xpath, value=//input[@ng-model='FirstName']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at testcases.DemoDataDriven.Register(DemoDataDriven.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testcases.DemoDataDriven@13b6d03]" name="close" is-config="true" duration-ms="0" started-at="2020-07-08T11:30:17Z" finished-at="2020-07-08T11:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.DemoDataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

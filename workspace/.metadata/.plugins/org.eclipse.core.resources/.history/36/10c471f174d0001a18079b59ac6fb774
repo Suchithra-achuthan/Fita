@@ -1,0 +1,60 @@
+package programs;
+
+import java.util.Scanner;
+
+public class Time3 {
+	public static void main(String[] args) {
+		System.out.println("Enter a four digit number");
+		Scanner scn =new Scanner(System.in);
+		String num=scn.next();
+		int hh;
+		int mm;
+			String x = num.substring(0, 2);
+			String y= num.substring(2);
+			System.out.println(x +" and "+ y);
+			StringBuilder a= new StringBuilder(x);
+			StringBuilder b= new StringBuilder(y);
+	
+			
+//			String p = a.reverse().toString();
+//			String q = b.reverse().toString();
+//			System.out.println(p +" and "+ q);
+			if(Integer.parseInt(x)>Integer.parseInt(a.reverse().toString()))
+					{
+						 hh = Integer.parseInt(x);
+						 System.out.println("if block Value of hh - ");
+						 System.out.println(hh);
+					}
+			else
+			{
+					hh = Integer.parseInt(a.reverse().toString());
+					 System.out.println("if block Value of hh - ");
+					System.out.println(hh);
+			}
+			if(Integer.parseInt(y)>Integer.parseInt(b.reverse().toString()))
+			{
+					mm = Integer.parseInt(y);
+					System.out.println(mm);
+			}
+			else
+			{
+					mm = Integer.parseInt(b.reverse().toString());
+					System.out.println(mm);
+			}
+			if ((hh<24)&&(mm<60))
+			{
+				System.out.println("The highest time is "+hh+":"+mm);
+				
+			}
+			else if((hh>24)&&(mm<60))
+			{
+				hh=00;
+				System.out.println("The highest time is "+hh+":"+mm);
+			}
+			else if((hh<24)&&(mm>60))
+			{
+				mm=00;
+				System.out.println("The highest time is "+hh+":"+mm);
+			}
+}
+}

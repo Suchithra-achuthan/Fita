@@ -1,0 +1,33 @@
+package basicconcepts;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Links {
+	public static void main(String[] args)
+	{
+	int count =0;
+	WebDriver driver; 
+	
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\vbalasub\\Desktop\\Jars\\chromedriver.exe");
+	driver = new ChromeDriver();
+	
+     driver.manage().window().maximize();
+     driver.get("https://www.google.com/");
+     List<WebElement> link = driver.findElements(By.tagName("a"));
+     System.out.println(link.size());
+     for (WebElement temp:link)
+     {
+    	 if(temp.isDisplayed())
+    			 {
+    		 		count++;
+    		 		System.out.println(temp.getText());
+    			 }
+     }
+     System.out.println("The Total number of links are"+count);
+	}
+}

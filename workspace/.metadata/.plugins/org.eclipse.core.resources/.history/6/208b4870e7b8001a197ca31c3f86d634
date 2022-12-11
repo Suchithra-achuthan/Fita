@@ -1,0 +1,50 @@
+package basicconcepts;
+
+import java.util.List;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class CustomizedTable {
+
+	public static void main(String[] args) {
+	
+		WebDriver driver; 
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vbalasub\\Desktop\\Jars\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("http://demo.automationtesting.in/WebTable.html");
+		System.out.println(driver.getCurrentUrl());
+		driver.manage().window().maximize();
+		int count =0;
+		do
+		{
+			List<WebElement> s1= driver.findElements(By.xpath("//div[contains(@class,'0006')]"));
+			
+			driver.findElement(By.xpath("//div[@class='last-triangle next-triangle']")).click();
+			for(WebElement temp:s1)
+			{
+				
+				if(temp.getText().equalsIgnoreCase("divya"))
+				{
+					System.out.println("Begin debugging");
+					 System.out.println(temp.findElement(By.xpath("../div[1]")).getText());
+					 count++;
+					 break;
+					
+				}
+				
+				
+			}
+			
+			
+		}while(count==0);
+		
+
+	}
+
+}

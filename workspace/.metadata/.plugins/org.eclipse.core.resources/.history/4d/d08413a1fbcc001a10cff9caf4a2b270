@@ -1,0 +1,63 @@
+package programs;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+
+
+public class Time {
+
+	public static void main(String[] args) {
+		int num= 2344;
+		int[] a = new int[4];
+		int hh=0;
+		int mm=0;
+		
+		HashSet<Integer> St = new HashSet<Integer>();
+		for(int i=0;num>0;i++)
+		{
+			a[i]= num%10;
+			num=num/10;
+			System.out.println(a[i]);
+		}
+		
+		for(int i=0;i<4;i++)
+		{
+			for(int j=i+1;j<4;j++)
+			{
+				String x = String.valueOf(a[i]);
+				String y= String.valueOf(a[j]);
+				String z=x+y;
+				StringBuilder h= new StringBuilder(z);
+				St.add(Integer.parseInt(z));
+				St.add(Integer.parseInt(h.reverse().toString()));
+				
+			}
+		}
+		ArrayList<Integer> list2 = new ArrayList<Integer>();
+		list2.addAll(St);
+			
+		Collections.sort(list2);
+		Collections.reverse(list2);
+		System.out.println(list2);
+		boolean minFlag = false;
+		for(int i=0;i<list2.size();i++)
+		{
+			if(list2.get(i)<60 && minFlag==false)
+			{
+			 mm= list2.get(i);
+			 minFlag = true;
+			}
+			if(list2.get(i)<24)
+			{
+			hh= list2.get(i);
+				break;
+			}
+			
+		}	
+		System.out.println("The highest time is "+hh+":"+mm);
+		
+	}
+	
+	}	
+

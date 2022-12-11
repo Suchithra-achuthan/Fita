@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestParallel" duration-ms="10692" started-at="2020-06-26T02:45:28Z" finished-at="2020-06-26T02:45:38Z">
+    <groups>
+      <group name="GMO">
+        <method signature="TestDependsOn.EnterQty()[pri:1, instance:skeleton.TestDependsOn@3ecf72fd]" name="EnterQty" class="skeleton.TestDependsOn"/>
+        <method signature="TestDependsOn.proceedorder()[pri:2, instance:skeleton.TestDependsOn@3ecf72fd]" name="proceedorder" class="skeleton.TestDependsOn"/>
+        <method signature="Testparameter.Billing(java.lang.String)[pri:2, instance:skeleton.Testparameter@483bf400]" name="Billing" class="skeleton.Testparameter"/>
+        <method signature="TestPriority.EnterGMO()[pri:0, instance:skeleton.TestPriority@64c64813]" name="EnterGMO" class="skeleton.TestPriority"/>
+      </group> <!-- GMO -->
+    </groups>
+    <test name="Test2" duration-ms="8553" started-at="2020-06-26T02:45:28Z" finished-at="2020-06-26T02:45:36Z">
+      <class name="skeleton.TestInocationCount">
+        <test-method status="PASS" signature="About()[pri:0, instance:skeleton.TestInocationCount@2eee9593]" name="About" duration-ms="483" started-at="2020-06-25T22:45:35Z" finished-at="2020-06-25T22:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About -->
+        <test-method status="PASS" signature="Exit()[pri:0, instance:skeleton.TestInocationCount@2eee9593]" name="Exit" is-config="true" duration-ms="273" started-at="2020-06-25T22:45:36Z" finished-at="2020-06-25T22:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit -->
+      </class> <!-- skeleton.TestInocationCount -->
+      <class name="skeleton.TestPriority">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:skeleton.TestPriority@64c64813]" name="Initialize" is-config="true" duration-ms="11" started-at="2020-06-25T22:45:28Z" finished-at="2020-06-25T22:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+      </class> <!-- skeleton.TestPriority -->
+      <class name="skeleton.TestEnabled">
+        <test-method status="PASS" signature="Open()[pri:0, instance:skeleton.TestEnabled@3ab39c39]" name="Open" is-config="true" duration-ms="7775" started-at="2020-06-25T22:45:28Z" finished-at="2020-06-25T22:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open -->
+      </class> <!-- skeleton.TestEnabled -->
+    </test> <!-- Test2 -->
+    <test name="Test1" duration-ms="10692" started-at="2020-06-26T02:45:28Z" finished-at="2020-06-26T02:45:38Z">
+      <class name="skeleton.TestDependsOn">
+        <test-method status="PASS" signature="EnterQty()[pri:1, instance:skeleton.TestDependsOn@3ecf72fd]" name="EnterQty" duration-ms="607" started-at="2020-06-25T22:45:36Z" finished-at="2020-06-25T22:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterQty -->
+        <test-method status="PASS" signature="proceedorder()[pri:2, instance:skeleton.TestDependsOn@3ecf72fd]" name="proceedorder" duration-ms="325" started-at="2020-06-25T22:45:37Z" depends-on-methods="skeleton.TestDependsOn.EnterQty" finished-at="2020-06-25T22:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedorder -->
+      </class> <!-- skeleton.TestDependsOn -->
+      <class name="skeleton.TestPriority">
+        <test-method status="PASS" signature="Open()[pri:0, instance:skeleton.TestPriority@64c64813]" name="Open" is-config="true" duration-ms="7866" started-at="2020-06-25T22:45:28Z" finished-at="2020-06-25T22:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open -->
+        <test-method status="PASS" signature="EnterGMO()[pri:0, instance:skeleton.TestPriority@64c64813]" name="EnterGMO" duration-ms="491" started-at="2020-06-25T22:45:36Z" finished-at="2020-06-25T22:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterGMO -->
+      </class> <!-- skeleton.TestPriority -->
+      <class name="skeleton.Testparameter">
+        <test-method status="PASS" signature="Billing(java.lang.String)[pri:2, instance:skeleton.Testparameter@483bf400]" name="Billing" duration-ms="1389" started-at="2020-06-25T22:45:37Z" finished-at="2020-06-25T22:45:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Billing -->
+      </class> <!-- skeleton.Testparameter -->
+    </test> <!-- Test1 -->
+  </suite> <!-- TestParallel -->
+</testng-results>

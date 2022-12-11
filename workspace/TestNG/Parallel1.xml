@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="TestParallel" parallel="tests">
+  <test name="Test1">
+  	 <parameter name = "State" value="MA"/>
+    <classes>
+    
+    	<class name="skeleton.TestPriority"/>
+      	<class name="skeleton.TestDependsOn"/>
+      	<class name="skeleton.Testparameter"/>
+    </classes>
+   </test>
+   <test name="Test2">
+   	<classes>	
+   		<class name="skeleton.TestInocationCount"/>
+   		<class name="skeleton.TestEnabled"/>
+	</classes>
+   </test>
+  <!-- Test -->
+</suite> <!-- TestParallel -->

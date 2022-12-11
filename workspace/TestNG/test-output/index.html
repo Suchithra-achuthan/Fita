@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestParallel">
+              <span class="suite-name border-passed">TestParallel</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestParallel">
+                    <span>C:\Users\vbalasub\workspace\TestNG\Parallel1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestParallel">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestParallel">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestParallel">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestParallel">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestParallel">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestParallel">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestParallel" class="hide-methods passed suite-TestParallel"> (hide)</a> <!-- hide-methods passed suite-TestParallel -->
+                      <a href="#" panel-name="suite-TestParallel" class="show-methods passed suite-TestParallel"> (show)</a> <!-- show-methods passed suite-TestParallel -->
+                    </span>
+                    <div class="method-list-content passed suite-TestParallel">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestParallel" title="skeleton.TestInocationCount" hash-for-method="About">About</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestParallel" title="skeleton.Testparameter" hash-for-method="Billing(MA)">Billing(MA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestParallel" title="skeleton.TestPriority" hash-for-method="EnterGMO">EnterGMO</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestParallel" title="skeleton.TestDependsOn" hash-for-method="EnterQty">EnterQty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestParallel" title="skeleton.TestDependsOn" hash-for-method="proceedorder">proceedorder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestParallel -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestParallel" class="panel TestParallel">
+          <div class="suite-TestParallel-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skeleton.TestDependsOn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterQty">
+                  </a> <!-- EnterQty -->
+                  <span class="method-name">EnterQty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="proceedorder">
+                  </a> <!-- proceedorder -->
+                  <span class="method-name">proceedorder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestParallel-class-passed -->
+          <div class="suite-TestParallel-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skeleton.TestPriority</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterGMO">
+                  </a> <!-- EnterGMO -->
+                  <span class="method-name">EnterGMO</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestParallel-class-passed -->
+          <div class="suite-TestParallel-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skeleton.Testparameter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Billing(MA)">
+                  </a> <!-- Billing(MA) -->
+                  <span class="method-name">Billing</span>
+                  <span class="parameters">(MA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestParallel-class-passed -->
+          <div class="suite-TestParallel-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skeleton.TestInocationCount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="About">
+                  </a> <!-- About -->
+                  <span class="method-name">About</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestParallel-class-passed -->
+        </div> <!-- panel TestParallel -->
+        <div panel-name="test-xml-TestParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vbalasub\workspace\TestNG\Parallel1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestParallel&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Test1&quot;&gt;
+    &lt;parameter name=&quot;State&quot; value=&quot;MA&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skeleton.TestPriority&quot;/&gt;
+      &lt;class name=&quot;skeleton.TestDependsOn&quot;/&gt;
+      &lt;class name=&quot;skeleton.Testparameter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test name=&quot;Test2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skeleton.TestInocationCount&quot;/&gt;
+      &lt;class name=&quot;skeleton.TestEnabled&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+&lt;/suite&gt; &lt;!-- TestParallel --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestParallel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestParallel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">GMO</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Billing</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">EnterGMO</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">EnterQty</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">proceedorder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestParallel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestParallel');
+function tableData_TestParallel() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Billing')
+data.setCell(0, 2, 'skeleton.Testparameter')
+data.setCell(0, 3, 1389);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'EnterQty')
+data.setCell(1, 2, 'skeleton.TestDependsOn')
+data.setCell(1, 3, 607);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'EnterGMO')
+data.setCell(2, 2, 'skeleton.TestPriority')
+data.setCell(2, 3, 491);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'About')
+data.setCell(3, 2, 'skeleton.TestInocationCount')
+data.setCell(3, 3, 483);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'proceedorder')
+data.setCell(4, 2, 'skeleton.TestDependsOn')
+data.setCell(4, 3, 325);
+window.suiteTableData['TestParallel']= { tableData: data, tableDiv: 'times-div-TestParallel'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-TestParallel">
+              </div> <!-- times-div-TestParallel -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestParallel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">skeleton.TestEnabled</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">browse</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">skeleton.TestPriority</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skeleton.TestEnabled</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Open</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skeleton.TestPriority</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Open</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skeleton.TestInocationCount</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">About</span>
+                <span class="method-start">7809 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skeleton.TestPriority</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">EnterGMO</span>
+                <span class="method-start">7883 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skeleton.TestInocationCount</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">8295 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skeleton.TestDependsOn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">EnterQty</span>
+                <span class="method-start">8376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">proceedorder</span>
+                <span class="method-start">8987 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skeleton.Testparameter</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Billing(MA)</span>
+                <span class="method-start">9317 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
